@@ -1,0 +1,44 @@
+
+body{
+    background-color: rgb(149, 99, 196);
+}
+
+h1 {
+    color:black;
+    text-align: center;
+    font-size: 40px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+blockquote{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+#ir{
+     text-align: center; 
+     background-color: green;      
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+
+a{
+    color: white;
+    line-height: 0%;
+    font-size: 15px; 
+    font-weight: 400; 
+    text-align: center; 
+    background: #093bbb; 
+    margin: 0 0 25px; 
+    overflow: hidden; 
+    padding: 20px; 
+    border-radius: 35px 0px 35px 0px; 
+    -moz-border-radius: 35px 0px 35px 0px; 
+    -webkit-border-radius: 35px 0px 35px 0px; 
+    border: 2px solid black;
+}

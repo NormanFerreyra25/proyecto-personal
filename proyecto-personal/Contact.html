@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../proyecto-personal/styles.css">
     <title>contact</title>
 
 </head>
@@ -12,6 +13,41 @@
 <body>
 
     <h1>Contactos</h1>
+
+    <label for="name">Nombre:</label><br>
+    <input type="text" id="name" name="name" ><br>
+    <label for="email">Correo Electronico</label><br>
+    <input type="email" name="email" id="email"> <br>
+    <label for="Telf">Teléfono</label><br>
+    <input type="tel" name="Telf" id="Telf"><br>
+    <p><textarea name="comentario" rows="5" cols="50">Escribe algo comentario extra </textarea></p>
+    
+    <label for="Motivo"> Motivo de contacto</label>
+    <select name="motivo-type" id="Motivo">
+      <option value="profesional">profesional</option>
+      <option value="personal">personal</option>
+      <option value="publicidad">publicidad</option>
+      <option value="otros">otros</option>
+    </select>
+    <p><textarea name="comentario" rows="5" cols="50">Escribe el motivo </textarea></p>
+    <div>
+        <label> Quiero resivir respuesta:</label><br>
+        <input type="radio" id="resp" name="resp" value="resp" />
+        <label for="resp">Si</label>
+        <input type="radio" id="resp" name="resp" value="resp" />
+        <label for="resp">No</label>
+    </div><br>
+    <label>Acepto los terminos y condiciones</label>
+    <input type="checkbox"><br>
+    <br>
+    <input class="select"
+       type="button"
+       value="Enviar"><br>
+       <br>
+
+    <a href="../proyecto-personal/Home.html">Home</a>
+    <a href="../proyecto-personal/Portfolio.html"> Ver Portfolio</a>
+    <a href="../proyecto-personal/About.html">About</a>
 
 
 </body>
